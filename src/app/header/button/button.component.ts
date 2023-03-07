@@ -13,6 +13,11 @@ import { EventService } from 'src/app/service/event.service';
         height: '3px',
         width: '0%',
       })),
+      state('hover', style({
+        backgroundColor: 'grey',
+        height: '3px',
+        width: '100%'
+      })),
       state('active', style({
         backgroundColor: 'green',
         height: '3px',
@@ -20,26 +25,41 @@ import { EventService } from 'src/app/service/event.service';
       })),
       transition('notActive => active', [
         animate('0.5s ease-out')
+      ]),
+      transition('notActive <=> hover', [
+        animate('0.2s ease-out')
       ])
     ])
   ]
 })
 export class ButtonComponent implements OnInit {
   @Input() title: string = "";
-  isActive: boolean = false;
+  state: string = 'notActive';
 
   constructor(private eventService: EventService) { }
 
-  public toggleActive = () => {
+  public toggleActive = (): void => {
     this.eventService.activePage$.next(this.title);
-  }
+  };
+
+  public toggleHover = (): void => {
+    if (this.state !== 'active') {
+      this.state = 'hover';
+    }
+  };
+
+  public removeHover = (): void => {
+    if (this.state !== 'active') {
+      this.state = 'notActive';
+    }
+  };
 
   ngOnInit(): void {
     this.eventService.activePage$.subscribe(title => {
       if (title === this.title) {
-        this.isActive = true;
+        this.state = 'active';
       } else {
-        this.isActive = false;
+        this.state = 'notActive';
       }
     });
   }

@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
-  activePage: string = "";
+  pageTitles: string[] = [
+    'Main',
+    'About',
+    'Directions',
+    'Our Partners',
+    'Contact Us'
+  ];
 }

@@ -1,2 +1,4 @@
-<p class="header-button-title" (click)="toggleActive()">{{title}}</p>
-<div [@selection]="isActive ? 'active' : 'notActive' "></div>
+<div class="header-button" (click)="toggleActive()" (mouseenter)="toggleHover()" (mouseleave)="removeHover()">
+    <p class="header-button-title" (click)="toggleActive()">{{title}}</p>
+    <div [@selection]="state"></div>
+</div>
