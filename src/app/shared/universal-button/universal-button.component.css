@@ -1,0 +1,15 @@
+.button-wrap{
+  width: 123px;
+  height: 44px;
+  background-color: rgb(85, 112, 180);
+}
+
+.button-wrap:hover{
+  background-color: rgb(142, 160, 205);
+}
+
+.text-in-button{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: white;
+}
