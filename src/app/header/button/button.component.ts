@@ -8,8 +8,8 @@ import { EventService } from 'src/app/service/event.service';
   styleUrls: ['./button.component.css'],
   animations: [
     trigger('selection', [
-      state('notActive', style({
-        backgroundColor: 'green',
+      state('inactive', style({
+        backgroundColor: 'grey',
         height: '3px',
         width: '0%',
       })),
