@@ -23,10 +23,10 @@ import { EventService } from 'src/app/service/event.service';
         height: '3px',
         width: '100%'
       })),
-      transition('notActive => active', [
+      transition('inactive => active', [
         animate('0.5s ease-out')
       ]),
-      transition('notActive <=> hover', [
+      transition('inactive <=> hover', [
         animate('0.2s ease-out')
       ])
     ])
@@ -34,7 +34,7 @@ import { EventService } from 'src/app/service/event.service';
 })
 export class ButtonComponent implements OnInit {
   @Input() title: string = "";
-  state: string = 'notActive';
+  state: string = 'inactive';
 
   constructor(private eventService: EventService) { }
 
@@ -50,7 +50,7 @@ export class ButtonComponent implements OnInit {
 
   public removeHover = (): void => {
     if (this.state !== 'active') {
-      this.state = 'notActive';
+      this.state = 'inactive';
     }
   };
 
@@ -59,7 +59,7 @@ export class ButtonComponent implements OnInit {
       if (title === this.title) {
         this.state = 'active';
       } else {
-        this.state = 'notActive';
+        this.state = 'inactive';
       }
     });
   }
