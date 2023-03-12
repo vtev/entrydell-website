@@ -12,7 +12,6 @@ const routes: Routes = [
   { path: 'directions', component: DirectionsPageComponent },
   { path: 'partners', component: PartnersPageComponent },
   { path: 'contact', component: ContactPageComponent },
-  { path: '', redirectTo: '/main', pathMatch: 'full' },
   { path: '**', redirectTo: '/main', pathMatch: 'full' }
 ];
 
