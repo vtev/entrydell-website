@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css2?family=Golos+Text&display=swap);
+
+.button-wrap{
+  display: flex;
+  justify-content: center;
+  width: 490px;
+  height: 47px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.button-wrap:hover{
+  color: cornflowerblue;
+}
+
+.button-title{
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+  font-family: Golos,sans-serif;
+  font-size: 18px;
+  color: blue;
+  letter-spacing: 2px;
+}
+
+.button-title:hover{
+  color: cornflowerblue;
+}

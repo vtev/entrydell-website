@@ -1,4 +1,6 @@
 .button-wrap{
+  display: flex;
+  justify-content: center;
   width: 123px;
   height: 44px;
   background-color: rgb(85, 112, 180);
@@ -9,7 +11,10 @@
 }
 
 .text-in-button{
+  padding-top: 10px;
+  padding-right: 6px;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   color: white;
+  letter-spacing: 2px;
 }
