@@ -1,8 +1,8 @@
 <div class="row justify-content-between mt-4">
-    <div class="col-sm">
+    <div id="header-logo" class="col-sm">
         <img src="assets/entrydell-logo.png" height="25px">
     </div>
     <div class="col-sm d-flex flex-row align-items-end justify-content-end">
-        <app-button *ngFor="let title of pageTitles" title="{{title}}"></app-button>
+        <app-button *ngFor="let page of pages" title="{{page.title}}" url="{{page.url}}"></app-button>
     </div>
 </div>

@@ -1,6 +1,7 @@
 import { animate, state, style, transition, trigger } from '@angular/animations';
 import { Component, Input, OnInit } from '@angular/core';
-import { EventService } from 'src/app/service/event.service';
+import { NavigationEnd, Router } from '@angular/router';
+import { filter } from 'rxjs';
 
 @Component({
   selector: 'app-button',
@@ -33,14 +34,11 @@ import { EventService } from 'src/app/service/event.service';
   ]
 })
 export class ButtonComponent implements OnInit {
-  @Input() title: string = "";
+  @Input() title: string = '';
+  @Input() url: string = '';
   state: string = 'inactive';
 
-  constructor(private eventService: EventService) { }
-
-  public toggleActive = (): void => {
-    this.eventService.activePage$.next(this.title);
-  };
+  constructor(private router: Router) { }
 
   public toggleHover = (): void => {
     if (this.state !== 'active') {
@@ -55,8 +53,12 @@ export class ButtonComponent implements OnInit {
   };
 
   ngOnInit(): void {
-    this.eventService.activePage$.subscribe(title => {
-      if (title === this.title) {
+    this.router.events
+    .pipe(
+      filter(e => e instanceof NavigationEnd)
+    )
+    .subscribe(() => {
+      if (this.router.url === this.url) {
         this.state = 'active';
       } else {
         this.state = 'inactive';

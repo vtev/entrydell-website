@@ -6,11 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
-  pageTitles: string[] = [
-    'Main',
-    'About',
-    'Directions',
-    'Our Partners',
-    'Contact Us'
+  pages: { title: string, url: string }[] = [
+    { title: 'Main', url: '/main' },
+    { title: 'About', url: '/about' },
+    { title: 'Directions', url: '/directions' },
+    { title: 'Our Partners', url: '/partners' },
+    { title: 'Contact Us', url: '/contact' }
   ];
 }
