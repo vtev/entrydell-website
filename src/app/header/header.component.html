@@ -3,6 +3,6 @@
         <img src="assets/entrydell-logo.png" height="25px">
     </div>
     <div class="col-sm d-flex flex-row align-items-end justify-content-end">
-        <app-button *ngFor="let title of pageTitles" title="{{title}}"></app-button>
+        <app-button *ngFor="let page of pages" title="{{page.title}}" url="{{page.url}}"></app-button>
     </div>
 </div>
