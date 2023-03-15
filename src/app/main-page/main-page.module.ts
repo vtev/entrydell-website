@@ -1,12 +1,14 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MainPageComponent } from './main-page.component';
+import { TopBannerComponent } from './top-banner/top-banner.component';
 
 
 
 @NgModule({
   declarations: [
-    MainPageComponent
+    MainPageComponent,
+    TopBannerComponent
   ],
   imports: [
     CommonModule
