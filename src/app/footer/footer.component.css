@@ -1,0 +1,18 @@
+#footer {
+    color: rgb(22, 43, 111);
+}
+
+#footer > p:nth-child(1) {
+    font-family: oswald-medium, sans-serif;
+    font-size: 1.3rem;
+}
+
+#footer > a:nth-child(2) {
+    color: inherit;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+#footer > p:nth-child(3) {
+    font-family: lato-light, sans-serif;
+}
