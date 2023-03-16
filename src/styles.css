@@ -1,9 +1,9 @@
 @font-face {
     font-family: oswald-medium;
-    src: url('assets/fonts/oswald-medium.ttf');
+    src: url('assets/fonts/oswald-medium.ttf') format('truetype');
 }
 
 @font-face {
     font-family: lato-light;
-    src: url('assets/fonts/lato-light.ttf');
+    src: url('assets/fonts/lato-light.ttf') format('truetype');
 }
