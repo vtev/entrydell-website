@@ -4,7 +4,6 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    color: white;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
     min-height: 100vh;
 }
@@ -17,11 +16,30 @@
     align-items: center;
     width: 100%;
     height: 100%;
+    color: white;
     background-color: rgba(0, 0, 0, .2);
+}
+
+#main-page-banner-text > h1 {
+    font-family: oswald-medium, sans-serif;
+    font-size: 6rem;
+}
+
+#main-page-banner-text > p {
+    font-family: lato-light, sans-serif;
+    font-size: 1.9rem;
 }
 
 @media (max-width: 992px) {
     #main-page-banner-image {
         min-height: 40vh;
+    }
+
+    #main-page-banner-text > h1 {
+        font-size: 3rem;
+    }
+    
+    #main-page-banner-text > p {
+        font-size: 1rem;
     }
 }
