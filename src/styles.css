@@ -1,1 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: oswald-medium;
+    src: url('assets/fonts/oswald-medium.ttf');
+}
+
+@font-face {
+    font-family: lato-light;
+    src: url('assets/fonts/lato-light.ttf');
+}
