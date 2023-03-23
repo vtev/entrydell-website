@@ -1,0 +1,21 @@
+#city-image{
+  position: relative;
+  background-image: url('/assets/about-page/city.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0% 25%;
+  /*min-height: 150vh;*/
+}
+
+.text-style{
+  color: darkblue;
+  font-family: lato-light, sans-serif;
+  font-size: 22px;
+  letter-spacing: normal;
+}
+
+@media (max-width: 992px) {
+  #city-image{
+    min-height: 40vh;
+  }
+}

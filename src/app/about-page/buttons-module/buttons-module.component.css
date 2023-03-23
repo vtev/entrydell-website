@@ -13,8 +13,8 @@
   background-image: url('/assets/about-page/people.webp');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
-  min-height: 100vh;
+  background-position: top;
+  /*min-height: 100vh;*/
 }
 
 @media (max-width: 992px) {
