@@ -7,3 +7,18 @@
   font-family: oswald-medium, sans-serif;
   font-size: 40px;
 }
+
+#people-image{
+  position: relative;
+  background-image: url('/assets/about-page/people.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+}
+
+@media (max-width: 992px) {
+  #people-image{
+    min-height: 30vh;
+  }
+}
