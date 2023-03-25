@@ -9,8 +9,6 @@ import {animate, state, style, transition, trigger} from "@angular/animations";
     trigger('selection', [
       state('inactive', style({
         color: 'rgb(23, 44, 111)',
-        // height: '3px',
-        // width: '0%',
       })),
       state('hover', style({
         color: 'rgb(66, 154, 239)',
