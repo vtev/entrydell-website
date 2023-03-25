@@ -1,12 +1,14 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { AboutPageComponent } from './about-page.component';
+import {ButtonComponent} from "./button/button.component";
 
 
 
 @NgModule({
   declarations: [
-    AboutPageComponent
+    AboutPageComponent,
+    ButtonComponent
   ],
   imports: [
     CommonModule

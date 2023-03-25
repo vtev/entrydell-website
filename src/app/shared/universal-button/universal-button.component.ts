@@ -7,4 +7,5 @@ import {Component, Input} from '@angular/core';
 })
 export class UniversalButtonComponent {
   @Input() title: string = "";
+  @Input() link: string = "";
 }
