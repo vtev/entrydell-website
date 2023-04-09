@@ -2,8 +2,8 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { AboutPageComponent } from './about-page.component';
 import {ButtonComponent} from "./button/button.component";
-import { ButtonsModuleComponent } from './buttons-module/buttons-module.component';
 import { AboutCompanyComponent } from './about-company/about-company.component';
+import { OfficesAndCompaniesComponent } from './offices-and-companies/offices-and-companies';
 
 
 
@@ -11,7 +11,7 @@ import { AboutCompanyComponent } from './about-company/about-company.component';
   declarations: [
     AboutPageComponent,
     ButtonComponent,
-    ButtonsModuleComponent,
+    OfficesAndCompaniesComponent,
     AboutCompanyComponent
   ],
   imports: [
