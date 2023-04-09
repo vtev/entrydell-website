@@ -11,10 +11,16 @@ import { HeaderModule } from './header/header.module';
 import { MainPageModule } from './main-page/main-page.module';
 import { PartnersPageModule } from './partners-page/partners-page.module';
 import { SharedModule } from './shared/shared.module';
+import { HealthcarePageComponent } from './healthcare-page/healthcare-page.component';
+import { EngineeringPageComponent } from './engineering-page/engineering-page.component';
+import {PharmacologyPageComponent} from "./pharmacology-page/pharmacology-page.component";
+import {PharmacologyPageModule} from "./pharmacology-page/pharmacology-page.module";
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HealthcarePageComponent,
+    EngineeringPageComponent
   ],
   imports: [
     BrowserModule,
@@ -26,7 +32,8 @@ import { SharedModule } from './shared/shared.module';
     AboutPageModule,
     PartnersPageModule,
     DirectionsPageModule,
-    ContactPageModule
+    ContactPageModule,
+    PharmacologyPageModule
   ],
   providers: [],
   bootstrap: [AppComponent]
