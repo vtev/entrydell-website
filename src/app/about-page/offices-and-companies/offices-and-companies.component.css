@@ -21,6 +21,10 @@ app-button {
   margin-top: 7px;
 }
 
+app-button:nth-last-child(1) {
+  margin-bottom: 15px;
+}
+
 @media (max-width: 992px) {
   #people-image{
     min-height: 30vh;
