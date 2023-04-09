@@ -7,8 +7,12 @@
   min-height: 110vh;
 }
 
+#about-company-text-block {
+  background-color: rgb(248, 247, 249);
+}
+
 .text-style{
-  color: darkblue;
+  color: rgb(22, 43, 111);
   font-family: lato-light, sans-serif;
   font-size: 22px;
   line-height: 41px;
