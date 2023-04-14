@@ -1,0 +1,12 @@
+.pic-box{
+  width: 150px;
+  height: 150px;
+}
+
+.pic-box a {
+  margin: auto;
+}
+
+.pic-box img {
+  max-width: 100%;
+}
