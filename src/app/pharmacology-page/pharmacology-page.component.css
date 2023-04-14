@@ -1,0 +1,66 @@
+.header{
+  font-family: oswald-medium, sans-serif;
+  font-size: 46px;
+  letter-spacing: normal;
+  color: rgb(22, 43, 111);
+  margin: 50px 0;
+}
+
+.text-style{
+  font-family: lato-light, sans-serif;
+  font-size: 20px;
+  letter-spacing: normal;
+  line-height: 36px;
+  color: rgb(22, 43, 111);
+  margin-bottom: 40px;
+}
+
+.top-pic{
+  width: 878px;
+  height: 270px;
+  background-image: url("/assets/pharmacology-page/1.jpeg");
+  background-position: 0 45%;
+  margin-bottom: 18px;
+}
+
+.small-pic{
+  width: 344px;
+  height: 270px;
+  background-image: url("/assets/pharmacology-page/3-1.webp");
+  background-position: 65% 60%;
+  margin-right: 18px;
+}
+
+.steriline-partner{
+  height: 70px;
+  width: 252px;
+}
+
+.bmt-partner{
+  height: 146px;
+  width: 99px;
+}
+
+.miele-partner{
+  height: 95px;
+  width: 140px;
+}
+
+.pms-partner{
+  height: 40px;
+  width: 120px;
+}
+
+.padana-partner{
+  height: 89px;
+  width: 208px;
+}
+
+.at-os-partner{
+  height: 95px;
+}
+
+.steris-partner{
+  height: 95px;
+  width: 140px;
+}

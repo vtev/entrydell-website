@@ -1,0 +1,16 @@
+.header{
+  font-family: oswald-medium, sans-serif;
+  font-size: 46px;
+  letter-spacing: normal;
+  color: rgb(22, 43, 111);
+  margin: 50px 0;
+}
+
+.text-style{
+  font-family: lato-light, sans-serif;
+  font-size: 20px;
+  letter-spacing: normal;
+  line-height: 36px;
+  color: rgb(22, 43, 111);
+  margin-bottom: 40px;
+}
