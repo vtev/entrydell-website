@@ -13,3 +13,9 @@
   height: 1px;
   opacity: 100%;
 }
+
+@media(max-width: 576px) {
+  .header-style {
+    font-size: 48px;
+  }
+}

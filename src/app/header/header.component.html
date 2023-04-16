@@ -1,8 +1,8 @@
-<div class="row justify-content-between my-4">
-    <div id="header-logo" class="col-sm" routerLink="/main">
+<div class="row justify-content-sm-between my-4">
+    <div id="header-logo" class="col-sm d-flex justify-content-center justify-content-sm-start mb-3 mb-sm-0" routerLink="/main">
         <img src="assets/entrydell-logo.png" height="25px">
     </div>
-    <div class="col-sm d-flex flex-row align-items-end justify-content-end">
-        <app-button *ngFor="let page of pages" title="{{page.title}}" url="{{page.url}}"></app-button>
+    <div id="header-buttons" class="col-sm d-sm-flex justify-content-sm-end">
+        <app-button class="" *ngFor="let page of pages" title="{{page.title}}" url="{{page.url}}"></app-button>
     </div>
 </div>

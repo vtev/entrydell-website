@@ -1,9 +1,8 @@
 .header{
   font-family: oswald-medium, sans-serif;
-  font-size: 46px;
-  letter-spacing: normal;
+  font-size: 72px;
+  text-align: center;
   color: rgb(22, 43, 111);
-  margin: 50px 0;
 }
 
 .text-style{
@@ -62,4 +61,18 @@
 .samsung-partner{
   height: 23px;
   width: 197px;
+}
+
+@media (max-width: 992px) {
+  .header {
+    font-size: 46px;
+  }
+}
+
+@media (max-width: 576px) {
+  .image {
+    width: 90vw;
+    height: 200px;
+    object-fit: cover;
+  }
 }
