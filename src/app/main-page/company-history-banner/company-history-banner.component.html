@@ -1,0 +1,9 @@
+<div id="main-page-history-banner-image">
+    <div id="main-page-history-banner-text">
+        <h1>HISTORY OF THE COMPANY</h1>
+        <div class="read-more-history-button" routerLink="/about" (mouseenter)="toggleHover()" (mouseleave)="removeHover()">
+            <p>Read more</p>
+            <div [@selection]="state"></div>
+        </div>
+    </div>
+</div>
