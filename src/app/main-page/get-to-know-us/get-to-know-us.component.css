@@ -1,0 +1,37 @@
+#get-to-know-us-main-page {
+    color: rgb(22, 43, 111);
+}
+
+#get-to-know-us-main-page > h1 {
+    font-family: lato-regular, sans-serif;
+}
+
+#get-to-know-us-main-page > p {
+    font-family: lato-light, sans-serif;
+    font-size: 1.4rem;
+    line-height: 2;
+}
+
+.button-wrap{
+    cursor: pointer;
+    width: 123px;
+    height: 44px;
+    background-color: rgb(85, 112, 180);
+  }
+  
+  .button-wrap:hover{
+    background-color: rgb(142, 160, 205);
+  }
+  
+  .text-in-button{
+    font-family: lato-regular, sans-serif;
+    font-size: 0.8rem;
+    color: white;
+    letter-spacing: 2px;
+  }
+
+@media (min-width: 992px) {
+    #get-to-know-us-main-page {
+        width: 60%;
+    }
+}
