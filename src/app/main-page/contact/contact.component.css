@@ -1,0 +1,10 @@
+div > h1 {
+    font-family: oswald-medium, sans-serif;
+    color: rgb(85, 112, 180);
+}
+
+div > p {
+    font-family: lato-light, sans-serif;
+    font-size: 1.3rem;
+    color: rgb(22, 43, 111);
+}

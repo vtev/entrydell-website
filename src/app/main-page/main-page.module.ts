@@ -8,6 +8,7 @@ import { CompanyHistoryBannerComponent } from './company-history-banner/company-
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { GetToKnowUsComponent } from './get-to-know-us/get-to-know-us.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 
@@ -17,7 +18,8 @@ import { GetToKnowUsComponent } from './get-to-know-us/get-to-know-us.component'
     TopBannerComponent,
     DirectionComponent,
     CompanyHistoryBannerComponent,
-    GetToKnowUsComponent
+    GetToKnowUsComponent,
+    ContactComponent
   ],
   imports: [
     CommonModule,
