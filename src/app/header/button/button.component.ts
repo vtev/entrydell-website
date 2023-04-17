@@ -36,6 +36,7 @@ import { filter } from 'rxjs';
 export class ButtonComponent implements OnInit {
   @Input() title: string = '';
   @Input() url: string = '';
+  @Input() fragment?: string;
   state: string = 'inactive';
 
   constructor(private router: Router) { }
@@ -58,7 +59,7 @@ export class ButtonComponent implements OnInit {
       filter(e => e instanceof NavigationEnd)
     )
     .subscribe(() => {
-      if (this.router.url === this.url) {
+      if (this.router.url === this.url && this.title !== 'Directions') {
         this.state = 'active';
       } else {
         this.state = 'inactive';

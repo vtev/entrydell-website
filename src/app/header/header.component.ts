@@ -6,10 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
-  pages: { title: string, url: string }[] = [
+  pages: { title: string, url: string, fragment?: string }[] = [
     { title: 'Main', url: '/main' },
     { title: 'About', url: '/about' },
-    { title: 'Directions', url: '/directions' },
+    { title: 'Directions', url: '/main', fragment: 'directions-block-main-page' },
     { title: 'Our Partners', url: '/partners' },
     { title: 'Contact Us', url: '/contact' }
   ];
