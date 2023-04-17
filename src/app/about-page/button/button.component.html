@@ -1,3 +1,7 @@
-<div [@selection]="state" class="d-flex justify-content-center align-items-center button-wrap" (mouseenter)="toggleHover()" (mouseleave)="removeHover()">
+<div *ngIf="!affiliateUrl" [@selection]="state" class="d-flex justify-content-center align-items-center button-wrap" routerLink="/contact" (mouseenter)="toggleHover()" (mouseleave)="removeHover()">
+  <p class="m-0">{{title}}</p>
+</div>
+
+<div *ngIf="affiliateUrl" [@selection]="state" class="d-flex justify-content-center align-items-center button-wrap" (click)="goToAffiliate()" (mouseenter)="toggleHover()" (mouseleave)="removeHover()">
   <p class="m-0">{{title}}</p>
 </div>

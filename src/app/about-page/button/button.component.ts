@@ -21,7 +21,12 @@ import {animate, state, style, transition, trigger} from "@angular/animations";
 })
 export class ButtonComponent {
   @Input() title : string = "";
+  @Input() affiliateUrl?: string;
   state : string = "inactive";
+
+  public goToAffiliate = (): void => {
+    window.open(this.affiliateUrl);
+  }
 
   public toggleHover = (): void => {
       this.state = 'hover';
