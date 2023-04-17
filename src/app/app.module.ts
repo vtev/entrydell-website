@@ -5,16 +5,14 @@ import { AboutPageModule } from './about-page/about-page.module';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ContactPageModule } from './contact-page/contact-page.module';
-import { DirectionsPageModule } from './directions-page/directions-page.module';
+import { EngineeringPageComponent } from './engineering-page/engineering-page.component';
 import { FooterModule } from './footer/footer.module';
 import { HeaderModule } from './header/header.module';
+import { HealthcarePageComponent } from './healthcare-page/healthcare-page.component';
 import { MainPageModule } from './main-page/main-page.module';
 import { PartnersPageModule } from './partners-page/partners-page.module';
+import { PharmacologyPageModule } from "./pharmacology-page/pharmacology-page.module";
 import { SharedModule } from './shared/shared.module';
-import { HealthcarePageComponent } from './healthcare-page/healthcare-page.component';
-import { EngineeringPageComponent } from './engineering-page/engineering-page.component';
-import {PharmacologyPageComponent} from "./pharmacology-page/pharmacology-page.component";
-import {PharmacologyPageModule} from "./pharmacology-page/pharmacology-page.module";
 
 @NgModule({
   declarations: [
@@ -31,7 +29,6 @@ import {PharmacologyPageModule} from "./pharmacology-page/pharmacology-page.modu
     MainPageModule,
     AboutPageModule,
     PartnersPageModule,
-    DirectionsPageModule,
     ContactPageModule,
     PharmacologyPageModule
   ],
