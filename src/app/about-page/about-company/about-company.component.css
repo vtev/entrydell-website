@@ -1,6 +1,6 @@
 #city-image{
   position: relative;
-  background-image: url('/assets/about-page/city.webp');
+  background-image: url('/assets/about-page/city.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0 25%;
@@ -22,9 +22,10 @@
 .header-style{
   color: rgb(85, 112, 180);
   font-family: oswald-medium, sans-serif;
-  font-size: 35px;
+  font-size: 54px;
   line-height: 54px;
   letter-spacing: normal;
+  margin-bottom: 60px;
 }
 
 .spacing{

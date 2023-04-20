@@ -14,3 +14,47 @@
   color: rgb(22, 43, 111);
   margin-bottom: 40px;
 }
+
+.big-pic{
+  width: 878px;
+  height: 270px;
+  object-fit: cover;
+}
+
+.sml-pic{
+  width: 339px;
+  height: 270px;
+  object-fit: cover;
+}
+
+.nrml-pic{
+  width: 516px;
+  height: 270px;
+  object-fit: cover;
+}
+
+@media (max-width: 992px) {
+  .header {
+    font-size: 46px;
+  }
+}
+
+@media (max-width: 576px) {
+  .big-pic{
+    width: 90vw;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .sml-pic{
+    width: 90vw;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .nrml-pic{
+    width: 90vw;
+    height: 200px;
+    object-fit: cover;
+  }
+}

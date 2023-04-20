@@ -1,7 +1,7 @@
 .header{
   font-family: oswald-medium, sans-serif;
-  font-size: 72px;
-  text-align: center;
+  font-size: 56px;
+  text-align: start;
   color: rgb(22, 43, 111);
 }
 
@@ -12,6 +12,28 @@
   line-height: 36px;
   color: rgb(22, 43, 111);
   margin-bottom: 40px;
+}
+
+.big-pic{
+  width: 878px;
+  height: 270px;
+  object-fit: cover;
+}
+
+.sml-pic{
+  width: 339px;
+  height: 270px;
+  object-fit: cover;
+}
+
+.nrml-pic{
+  width: 516px;
+  height: 270px;
+  object-fit: cover;
+}
+
+.no-left-padding{
+  padding-left: 0;
 }
 
 .box{
@@ -70,7 +92,19 @@
 }
 
 @media (max-width: 576px) {
-  .image {
+  .big-pic{
+    width: 90vw;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .sml-pic{
+    width: 90vw;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .nrml-pic{
     width: 90vw;
     height: 200px;
     object-fit: cover;

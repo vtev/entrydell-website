@@ -1,5 +1,7 @@
 #footer {
     color: rgb(22, 43, 111);
+    background-color: rgb(230, 230, 230);
+    height: 75px;
 }
 
 #footer > p:nth-child(1) {

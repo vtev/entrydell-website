@@ -15,20 +15,22 @@
   margin-bottom: 40px;
 }
 
-.top-pic{
+.big-pic{
   width: 878px;
   height: 270px;
-  background-image: url("/assets/pharmacology-page/1.jpeg");
-  background-position: 0 45%;
-  margin-bottom: 18px;
+  object-fit: cover;
 }
 
-.small-pic{
-  width: 344px;
+.sml-pic{
+  width: 339px;
   height: 270px;
-  background-image: url("/assets/pharmacology-page/3-1.webp");
-  background-position: 65% 60%;
-  margin-right: 18px;
+  object-fit: cover;
+}
+
+.nrml-pic{
+  width: 516px;
+  height: 270px;
+  object-fit: cover;
 }
 
 .steriline-partner{
@@ -48,7 +50,6 @@
 
 .pms-partner{
   height: 40px;
-  width: 120px;
 }
 
 .padana-partner{
@@ -63,4 +64,30 @@
 .steris-partner{
   height: 95px;
   width: 140px;
+}
+
+@media (max-width: 992px) {
+  .header {
+    font-size: 46px;
+  }
+}
+
+@media (max-width: 576px) {
+  .big-pic{
+    width: 90vw;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .sml-pic{
+    width: 90vw;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .nrml-pic{
+    width: 90vw;
+    height: 200px;
+    object-fit: cover;
+  }
 }
