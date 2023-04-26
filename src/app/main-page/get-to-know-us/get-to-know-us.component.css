@@ -3,13 +3,16 @@
 }
 
 #get-to-know-us-main-page > h1 {
-    font-family: lato-regular, sans-serif;
+    font-family: oswald-medium, sans-serif;
+    font-size: 30px;
+    color: rgb(85, 112, 180);
 }
 
 #get-to-know-us-main-page > p {
     font-family: lato-light, sans-serif;
-    font-size: 1.4rem;
-    line-height: 2;
+    font-size: 19px;
+    line-height: 35px;
+    letter-spacing: normal;
 }
 
 .button-wrap{
@@ -18,11 +21,11 @@
     height: 44px;
     background-color: rgb(85, 112, 180);
   }
-  
+
   .button-wrap:hover{
     background-color: rgb(142, 160, 205);
   }
-  
+
   .text-in-button{
     font-family: lato-regular, sans-serif;
     font-size: 0.8rem;

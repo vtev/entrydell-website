@@ -1,9 +1,10 @@
 .header-style{
+  color: rgb(85, 112, 180);
   font-family: oswald-medium, sans-serif;
-  color: rgb(22, 43, 111);
-  font-size: 56px;
+  font-size: 40px;
+  line-height: 54px;
   letter-spacing: normal;
-  margin: 50px 50px;
+  margin: 50px 0;
 }
 
 .line-style{

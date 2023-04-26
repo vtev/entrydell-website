@@ -59,7 +59,7 @@ export class ButtonComponent implements OnInit {
       filter(e => e instanceof NavigationEnd)
     )
     .subscribe(() => {
-      if (this.router.url === this.url && this.title !== 'Directions') {
+      if (this.router.url === this.url && this.title !== 'Activities') {
         this.state = 'active';
       } else {
         this.state = 'inactive';

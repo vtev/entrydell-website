@@ -1,8 +1,10 @@
 .header{
+  color: rgb(85, 112, 180);
   font-family: oswald-medium, sans-serif;
-  font-size: 56px;
+  font-size: 40px;
+  line-height: 54px;
+  letter-spacing: normal;
   text-align: start;
-  color: rgb(22, 43, 111);
 }
 
 .text-style{
@@ -41,48 +43,41 @@
 }
 
 .fujifilm-partner{
-  height: 34px;
-  width: 132px;
+  height: 40px;
 }
 
 .merivaara-partner{
-  height: 31px;
-  width: 160px;
+  height: 40px;
 }
 
 .radiometer-partner{
-  height: 23px;
-  width: 163px;
+  height: 34px;
 }
 
 .draeger-partner{
-  height: 47px;
-  width: 135px;
+  height: 40px;
 }
 
 .zeiss-partner{
   height: 111px;
-  width: 139px;
 }
 
 .storz-partner{
-  height: 47px;
-  width: 140px;
+  height: 33px;
 }
 
 .dornier-partner{
-  height: 61px;
-  width: 231px;
+  height: 50px;
+  margin: 0 0;
 }
 
 .gambro-partner{
-  height: 34px;
-  width: 140px;
+  height: 40px;
 }
 
 .samsung-partner{
-  height: 23px;
-  width: 197px;
+  height: 20px;
+  margin-right: 0;
 }
 
 @media (max-width: 992px) {

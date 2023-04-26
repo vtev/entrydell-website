@@ -3,8 +3,8 @@
   background-image: url('/assets/about-page/city.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 0 25%;
-  min-height: 110vh;
+  background-position: 0 40%;
+  min-height: 90vh;
 }
 
 #about-company-text-block {

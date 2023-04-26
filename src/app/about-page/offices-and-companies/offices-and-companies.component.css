@@ -13,8 +13,13 @@
   background-image: url('/assets/about-page/people.webp');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: top;
-  min-height: 100vh;
+  background-position: 0 45%;
+  min-height: 50vh;
+}
+
+.people-styler{
+  object-fit: cover;
+  object-position: 50% 50%;
 }
 
 app-button {
