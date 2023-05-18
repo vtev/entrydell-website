@@ -13,6 +13,7 @@ import { MainPageModule } from './main-page/main-page.module';
 import { PartnersPageModule } from './partners-page/partners-page.module';
 import { PharmacologyPageModule } from "./pharmacology-page/pharmacology-page.module";
 import { SharedModule } from './shared/shared.module';
+import {HashLocationStrategy, LocationStrategy} from "@angular/common";
 
 @NgModule({
   declarations: [
@@ -32,7 +33,7 @@ import { SharedModule } from './shared/shared.module';
     ContactPageModule,
     PharmacologyPageModule
   ],
-  providers: [],
+  providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
