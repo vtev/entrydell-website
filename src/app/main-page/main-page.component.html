@@ -1,9 +1,15 @@
 <app-top-banner></app-top-banner>
 <div class="row justify-content-center">
     <div id="directions-block-main-page" class="row col-sm-8">
-        <app-direction title="HEALTHCARE" image="healthcare.webp" class="col-sm" routerLink="/healthcare"></app-direction>
-        <app-direction title="PHARMACOLOGY" image="pharmacology.webp" class="col-sm" routerLink="/pharmacology"></app-direction>
-        <app-direction title="ENGINEERING" image="engineering.webp" class="col-sm" routerLink="/engineering"></app-direction>
+      <a routerLink="/healthcare"  class="col-sm dec-no">
+        <app-direction title="HEALTHCARE" image="healthcare.webp"></app-direction>
+      </a>
+      <a class="col-sm dec-no" routerLink="/pharmacology">
+        <app-direction title="PHARMACOLOGY" image="pharmacology.webp"></app-direction>
+      </a>
+      <a class="col-sm dec-no" routerLink="/engineering">
+        <app-direction title="ENGINEERING" image="engineering.webp"></app-direction>
+      </a>
     </div>
     <div class="row">
         <app-company-history-banner class="col-sm me-sm-5 mb-4 mb-sm-0" style="padding-left: 0"></app-company-history-banner>

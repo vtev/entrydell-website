@@ -7,3 +7,8 @@
   font-size: 18px;
   letter-spacing: 2px;
 }
+
+.dec-no{
+  text-decoration: none;
+  color: inherit;
+}

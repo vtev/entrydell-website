@@ -22,16 +22,21 @@
     background-color: rgb(85, 112, 180);
   }
 
-  .button-wrap:hover{
-    background-color: rgb(142, 160, 205);
-  }
+.button-wrap:hover{
+  background-color: rgb(142, 160, 205);
+}
 
-  .text-in-button{
-    font-family: lato-regular, sans-serif;
-    font-size: 0.8rem;
-    color: white;
-    letter-spacing: 2px;
-  }
+.text-in-button{
+  font-family: lato-regular, sans-serif;
+  font-size: 0.8rem;
+  color: white;
+  letter-spacing: 2px;
+}
+
+a.dec-no{
+  text-decoration: none;
+  color: inherit;
+}
 
 @media (min-width: 992px) {
     #get-to-know-us-main-page {

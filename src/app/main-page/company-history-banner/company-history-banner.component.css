@@ -23,11 +23,17 @@
 
 .read-more-history-button {
     cursor: pointer;
+    text-decoration: none;
 }
 
 .read-more-history-button > p {
     font-family: lato-light, sans-serif;
     font-size: 1.3rem;
+}
+
+a.decoration-n{
+  text-decoration: none;
+  color: inherit;
 }
 
 @media (max-width: 992px) {
