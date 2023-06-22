@@ -4,13 +4,13 @@
 
 #get-to-know-us-main-page > h1 {
     font-family: oswald-medium, sans-serif;
-    font-size: 30px;
+    font-size: 40px;
     color: rgb(85, 112, 180);
 }
 
 #get-to-know-us-main-page > p {
     font-family: lato-light, sans-serif;
-    font-size: 19px;
+    font-size: 20px;
     line-height: 35px;
     letter-spacing: normal;
 }
