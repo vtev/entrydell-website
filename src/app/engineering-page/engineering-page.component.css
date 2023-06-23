@@ -34,6 +34,10 @@
   object-fit: cover;
 }
 
+.left-margin{
+  margin-left: 23px;
+}
+
 @media (max-width: 992px) {
   .header {
     font-size: 46px;

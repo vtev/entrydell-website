@@ -38,6 +38,10 @@
   padding-left: 0;
 }
 
+.left-margin{
+  margin-left: 23px;
+}
+
 .box{
   margin: 10px 10px;
 }
